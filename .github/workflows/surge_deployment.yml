@@ -38,7 +38,7 @@ jobs:
       run: npm install --global surge
       
     - name: Delpoy to Surge
-      run : surge ./build project00219.surge.su ${{ secrets.SURGE_TOKEN }}
+      run : surge ./build project00219.surge.sh ${{ secrets.SURGE_TOKEN }}
       
       
       
